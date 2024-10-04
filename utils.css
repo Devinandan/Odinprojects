@@ -107,7 +107,8 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-right: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
     
     align-items: center;
 }
@@ -138,22 +139,79 @@ h2{
 
 .third{
     background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
-    
-    
+    justify-content: center;
+    height: 500px;
+      
 }
+
 .p-third{
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937;
     margin-top: 50px;
     margin-bottom: 10px;
+    text-align: center;
     
 }
 .credit{
+    font-size: 18px;
+    font-weight: bold;
     text-align: end;
+    margin-right: 575px;
+}
+.fourth{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.blue-container{
+    background-color: #3882F6;
+    display: flex;
+    height: 35%;
+    width: 75%;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.left{
+    margin-left: 20px;
+}
+h4{
+    font-weight: bold;
+    font-size: 22px;
+    color: #F9FAF8;
+}
+.p-fourth{
+    color: #F9FAF8;
+}
+.right{
+    margin-left: 45%;
+}
+.sign-up-last-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 75px;
+
 }
